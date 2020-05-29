@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ML Latitude Data_Comparision</title>
+
+       <!-- Bootstrap CDN -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <link rel="stylesheet" href="styles.css">
+     
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"> Latitude Data Analysis</a>
+        <button class="navbar-toggler border-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon", class="border border-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current), class="border border-dark" </span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="pg5_comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pg6_data.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-menu-right" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="pg1_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="pg2_humidity.html">Humidity</a>
+                <a class="dropdown-item" href="pg3_cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="pg4_wind.html">Wind Speed</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+
+</head>
+<body>
+  <div class="container Comparison">
+    <h2><i>Latitude Comparisons</i></h2> 
+  </div>
+
+
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Latitude vs Temperature</h4>
+          <!--- <p class="card-text">.</p> -->
+        <a href="pg1_temp.html">
+        <img src="images/ML_fig1.png" class="card-img-top-left" alt="City Temp Map">
+
+        </div></a>
+      </div>
+    </div>
+    <div class="col mb-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Latitude vs Humidity </h4>
+          <!--- <p class="card-text">.</p> -->
+        <a href="pg2_humidity.html">
+        <img src="images/ML_fig2.png" class="card-img-top-right" alt="Humidity Map">
+
+        </div></a>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card"> 
+        <div class="card-body">
+          <h4 class="card-title">Latitude vs Cloudiness</h4>
+         <!---- <p class="card-text">.</p> --->
+        <a  href="pg3_cloud.html">
+        <img src="images/ML_fig3.png" class="card-img-bottom-left" alt="Cloudiness Map">
+
+        </div></a>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Latitude vs. Wind Speed</h4>
+          <!--- <p class="card-text">.</p> -->
+        <a href="pg4_wind.html">
+        <img src="images/ML_fig4.png" class="card-img-bottom-right" alt="Wind Speed Map">
+
+        </div></a>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Footer Section -->
+      <footer>
+        <div class="container_footer">
+          <div class="row_footer">
+          <div class="footer">Data Viz Bootcamp -Michelle Lucio 2020</div>
+        </div></div></footer>
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+         
+
+</body>
+</html>

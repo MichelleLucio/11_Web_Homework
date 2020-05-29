@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ML Latitude Data</title>
+    <title>ML Latitude Data_Wind</title>
  <!---    <link rel="stylesheet" href="reset.css"> -->
 
       <!-- Bootstrap CDN -->
@@ -16,7 +16,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav navbar-right">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current), class="border border-dark" </span></a>
         </li>
         <li class="nav-item">
@@ -33,7 +33,7 @@
             <a class="dropdown-item" href="pg1_temp.html">Max Temperature</a>
             <a class="dropdown-item" href="pg2_humidity.html">Humidity</a>
             <a class="dropdown-item" href="pg3_cloud.html">Cloudiness</a>
-            <a class="dropdown-item" href="pg4_wind.html">Wind Speed</a>
+            <a class="dropdown-item active" href="pg4_wind.html">Wind Speed</a>
           </div>
         </li>
       </ul>
@@ -47,20 +47,15 @@
         <!--First of Two Columns-->
         <div class="col-lg-8 col-xs-12">
             <div class="box">
-                <h2><i>Summary of Latitude Data Analysis</i></h2> 
+                <h2><i>Wind Speed</i></h2> 
 
-                <p><a href="pg5_comparison.html">
-                    <img src="images/ML_fig_world.png", alt="City Coverage Map">
+                <p><a href="pg4_wind.html">
+                    <img src="images/ML_fig4.png", alt="Wind Speed Map">
                   </a>
                    <p>
-                  This project was to show the relationship between latitude of a city and weather variables.
-                  The OpenWeatherMap API was used to collect weather data <br>on 04/12/2020 from 546 random cities from around the globe to compare
-                  the variables: max temperature, humidity, percent of clouds and wind speed. <br>The following visualizations are plots for each variable. 
-                  Also included is a table of the raw data.
-                  </p>
-                  <p>The above scatter plot is a representation of all the cities included, plotted by latitude and longitude. 
-                    <br>It resembles the continents of the world, verifying the data was well distributed. 
-                  </p></div>
+                    This scatter plot represents wind speed vs city latitude. It shows even distribution of wind speed values across latitudes. <br>
+                    There are also a few higher wind speeds that are outside of -20 to 20 degrees latitude.
+                   </p></div>
         </div>
         <!--Second of Two Columns-->
         <div class="col-md-4 sidebar">
@@ -73,17 +68,17 @@
                   </a></div>
                   <div class="col-md-6">
                   <a href="pg2_humidity.html">
-                    <img src="images/ML_fig2.png" alt="Humidity Map", width="100%", height="100%">
+                    <img class="panel" src="images/ML_fig2.png" alt="Humidity Map", width="100%", height="100%">
                   </a></div></div>
               <div class="row">      
             <!-- <div class="box_side_low"><br> -->
                 <div class="col-md-6">
                   <a  href="pg3_cloud.html">
-                    <img src="images/ML_fig3.png" alt="Cloudiness Map", width="100%", height="100%">
+                    <img class="panel active" src="images/ML_fig3.png" alt="Cloudiness Map", width="100%", height="100%">
                   </a></div>
                   <div class="col-md-6">
                   <a href="pg4_wind.html">
-                    <img src="images/ML_fig4.png" alt="Wind Speed Map", width="100%", height="100%">
+                    <img class="panel" src="images/ML_fig4.png" alt="Wind Speed Map", width="100%", height="100%">
                   </a></div></div></div>
                 </div></div>
         </div></div>
